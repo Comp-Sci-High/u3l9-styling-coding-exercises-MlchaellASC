@@ -1,6 +1,33 @@
 body {
     height: 100%;
     width: 100%;
+    font-family: "Lacquer", serif !important;
+    background-color: black;
+  background-image: url(background.avif);
+}
+h2{
+  color: white;
+  text-align: center;
+}
+.navbar{
+  background-color: #012F4F;
+}
+.navbar-brand{
+  color: white;
+}
+.card-text{
+  color: white;
+}
+.card{
+  margin: 10px;
+  text-align: center;
+}
+.carosel-inner{
+  border: 25px;
+}
+.carosel-item img{
+  height: 80vh;
+  border-radius: 25px;
 }
 
 /* Add styling to replicate the model website */
